@@ -1,5 +1,6 @@
 # tmux
-my custom tmuxrc config dir. &amp; config-file.
+my custom tmuxrc config dir. and config-file.
+
 
 Some of my favorite features:
 * tm-pin ctrl sensible move bindings
