@@ -1,7 +1,6 @@
 # tmux
 my custom tmuxrc config dir. and config-file.
 
-
 Some of my favorite features:
 * tm-pin ctrl sensible move bindings
     * splitting panes:
@@ -34,3 +33,30 @@ but I will change it to cmatrix soon enough.
 * gruvbox color scheme
     - As are most of my vim/nvim colorschemes for consistency.
 * pane window numbering set to start with one
+
+## Some of my favorite Tmux features:
+  - prefix + ? show ALL hotkeys
+  - prefix + p(revious)/n(ext)
+  - prefix + c create new tab(window)
+  - prefix + & close current tab.
+  - prefix + 1-9move to tab
+  - prefix + w show tabs+sessions menu
+  - prefix + z zoom tab in/out of a pane
+  - prefix + ! move pane into full window(tab)
+  - prefix + x close current pane
+  - prefix + " split tab(window) vertically
+  - prefix + % split tab(window) horizontally
+  - prefix + - delete most recently yanked text.
+  - prefix + : show tmux prompt
+  - prefix + {} move current pane Left({})/Right(})
+  - prefix + s choose from session menu
+## Copy Mode
+  - prefix + [ enter copy Mode
+    - When in copy mode h-j-k-l + w/b to move by chars or words L/R
+    - similar to vim G(bottom of the buffer) & g(top of the buffer)
+    - Also during copy mode /|?+n/N to search just like in the man pages
+    - q to quit just like man
+    - space during copy mode starts the copy selection
+    - enter finishes selecting the text you want to copy.
+    - prefix + ] pastes the most recent buffer.
+    - prefix + = choose what to paste from a menu with previews.
